@@ -31,7 +31,7 @@ sudo apt-get update
 ./prisma.sh
 
 # Code-Insiders
-./code-update.sh
+./vscode-insiders.sh
 
 # Docker
 ./docker-install.sh
@@ -48,5 +48,3 @@ code-insiders --version
 docker --version
 
 echo "Complete."
-
-
