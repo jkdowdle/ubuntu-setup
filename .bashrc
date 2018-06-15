@@ -154,3 +154,4 @@ alias treenode='tree -I \'\node_modules\'\'
 export arden=~/Dev/arden-project
 export client=~/Dev/arden-project/arden-client
 export server=~/Dev/arden-project/arden-server
+export common=~/Dev/arden-project/arden-common
