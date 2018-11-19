@@ -142,16 +142,19 @@ export EDITOR='vim'
 export VISUAL='vim'
 
 alias code="code-insiders"
-alias docker-up="docker-compose down && docker-compose up --build"
-alias docker-down="docker-compose down"
+alias docker-up="docker-compose -f docker-compose.dev.yml down && docker-compose -f docker-compose.dev.yml up --build"
+alias docker-down="docker-compose -f docker-compose.dev.yml down"
 
 alias files="xdg-open"
 alias explorer="xdg-open"
 alias finder="xdg-open"
 
 alias treenode='tree -I \'\node_modules\'\'
+alias usb-reset="sudo usbmuxd -u -U usbmux"
 
 export arden=~/Dev/arden-project
 export client=~/Dev/arden-project/arden-client
 export server=~/Dev/arden-project/arden-server
 export common=~/Dev/arden-project/arden-common
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
