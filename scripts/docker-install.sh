@@ -25,11 +25,11 @@ sudo apt-get install docker-ce
 # Add User to the docker group
 sudo usermod -aG docker $USER
 
-# Add insecure regestries 
+# Add insecure regestries
 sudo cp ./daemon.json.example /etc/docker/daemon.json
 
 # Install docker-compose
-sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
+sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
 sudo chmod +x /usr/local/bin/docker-compose
 
@@ -38,4 +38,3 @@ $ docker-compose --version
 
 # Check Docker installed correctly
 sudo docker run hello-world
-
