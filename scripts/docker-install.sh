@@ -1,5 +1,5 @@
 # Uninstall old versions
-sudo apt-get remove docker docker-engine docker.io
+sudo apt-get remove docker docker-engine docker.io containerd runc
 
 # Setup repositroy
 sudo apt-get update
@@ -20,7 +20,7 @@ sudo add-apt-repository \
 # Install Docker CE
 sudo apt-get update
 
-sudo apt-get install docker-ce
+sudo apt-get install docker-ce docker-ce-cli containerd.io
 
 # Add User to the docker group
 sudo usermod -aG docker $USER
