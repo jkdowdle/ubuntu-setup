@@ -160,6 +160,7 @@ export common=~/Dev/arden-project/arden-common
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 alias vpn="sudo openvpn ~/vpn/joshd@utmvpn.prioritydispatch.net.ovpn"
+alias ssh-vm="ssh joshd@172.17.253.6"
 ###-begin-npm-completion-###
 #
 # npm command completion script
