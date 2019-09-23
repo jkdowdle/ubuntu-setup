@@ -32,3 +32,11 @@ ff02::2 ip6-allrouters
 Host joshd-vm
     HostName 172.17.253.6
     User joshd
+
+- Terminal
+
+default color: #1094C7, #2E3436
+bold color: (checked) #065E80
+cursor color: (unchecked)
+highlight color: #F28130, #000000
+use transparency from system theme; (checked)
