@@ -19,7 +19,7 @@ sudo apt-get update
 ./git.sh
 
 # Node
-./node.*.sh
+./node.12.sh
 
 # Yarn
 ./yarn.sh
